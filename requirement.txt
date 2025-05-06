@@ -1,0 +1,9 @@
+flask
+langchain
+openai
+langchain-community
+langchain-openai
+gradio
+google-generativeai
+langchain-groq
+dotenv
