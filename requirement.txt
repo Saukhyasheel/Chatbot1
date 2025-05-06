@@ -7,3 +7,4 @@ gradio
 google-generativeai
 langchain-groq
 dotenv
+gunicorn
