@@ -1,15 +1,15 @@
 from flask import Flask, request, jsonify
 from dotenv import load_dotenv
-from flask_cors import CORS  # ✅ Add this import
+from flask_cors import CORS  
 from langchain_groq import ChatGroq
 import os
 import json
 
-# Load environment variables
+
 load_dotenv()
 
 app = Flask(__name__)
-CORS(app)  # ✅ Enable CORS on all routes
+CORS(app) 
 
 # Initialize the Groq client once
 llm = ChatGroq(
